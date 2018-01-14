@@ -1,13 +1,13 @@
 # SQL-toolkit
 
-SQL toolkit is a free tool for easier and much faster DDL(Data Definition Language) from console.
-This is on MIT license.)
+SQL toolkit is a free tool for easier and much faster DDL(Data Definition Language) from console.  
+(This is on MIT license.)
 
 (This project is currently started. These are just ideas) 
 
 ## Examples
 
-```bash
+```javascript
 sqlt USERS(varchar(50) name, varchar(200) hash, varchar(200) salt) 
 ```
 
@@ -118,5 +118,5 @@ sqlt list USERS~ARTICLES where user_id=2
 ```
 
 ## Installation
-	will be avalaible on npm 
+will be avalaible on npm 
   
