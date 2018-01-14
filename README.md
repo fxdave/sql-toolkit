@@ -75,7 +75,8 @@ To define foreign keys:
 | `A ~ B` |  means `A < B` and `A > B`                           |  
 
 
-All of the joins can labelled with a `!` mark to ensure can't be e.g :
+All of the joins can labelled with a `!` mark to ensure can't be e.g :  
+
 | example |   meaning                                                                                     |   
 |---------|-----------------------------------------------------------------------------------------------|
 |`A <! B` | means every row of `A` must have at least one row of `B`                                      |  
