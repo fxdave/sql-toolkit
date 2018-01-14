@@ -65,6 +65,7 @@ if there is at least one non-uppercase character then no conversion will be done
   - `USER(varchar(50) name CHECK = LOWER(name), int experience = 1, CHECK experience < 4  ) `
 
 ### joins 
+To define foreign keys:
 
 | join    |   meaning                                            |  
 |---------|------------------------------------------------------|  
@@ -76,7 +77,7 @@ if there is at least one non-uppercase character then no conversion will be done
 
 All of the joins can labelled with a `!` mark to ensure can't be e.g :
 | example |   meaning                                                                                     |   
-|---|---|
+|---------|-----------------------------------------------------------------------------------------------|
 |`A <! B` | means every row of `A` must have at least one row of `B`                                      |  
 |`A !< B` | means every row of `B` must have parent (not required to sign because irrelevant to be null ) |  
 |`A !<! B`| the combination of two                                                                        |  
