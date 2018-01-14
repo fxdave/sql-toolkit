@@ -114,7 +114,7 @@ You can modify style. Currently:
 there is not really DQL(Data Query Language) but you can the basics:
 ```bash
 sqlt list USERS~ARTICLES where user_id=2
-#extracted to: SELECT * FROM Users NATURAL JOIN Users_Articles_Connections NATURAL JOIN Articles
+#extracted to: SELECT * FROM Users NATURAL JOIN Users_Articles_Connections NATURAL JOIN Articles WHERE user_id = 2
 ```
 
 ## Installation
