@@ -5,6 +5,7 @@ SQL toolkit is a free tool for easier and much faster DDL(Data Definition Langua
 
 (This project is currently started. These are just ideas) 
 
+TODO: opportunity to add multiple prmiary key, on update, on delete, be simplier and let accepts more expressions e.g  int level < 10
 ## Examples
 
 ```javascript
